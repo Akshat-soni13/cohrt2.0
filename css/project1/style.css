@@ -1,0 +1,172 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.hero
+{
+    
+    background: #1A2434;
+    color: white;
+    font:bold;
+    height: 150px;
+    text-align: center;
+    padding-top: 40px;  
+}
+
+
+.hero p 
+{
+    margin-top: 10px;
+    color: grey;
+    font-style: italic;
+}
+.hero2
+{
+    padding: 20px;
+   background: rgba(159, 148, 148, 0.281);
+    /* border: 2px solid black; */
+
+}
+
+#one
+{
+    
+    /* border: 2px solid black; */
+    padding: 40px ;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 200px;
+    background: white;
+
+}
+#one p
+{
+    margin-top: 20px;
+    font-style: italic;
+}
+
+#one h2
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.marginer
+{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#two 
+{
+
+    padding: 40px ;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 200px;
+    background: rgb(176, 243, 255);
+}
+
+#two div
+{
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    font-style: italic;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 5px;
+}
+#three h3{
+    font-size: 50px;
+}
+#three
+{
+padding: 40px ;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    background: rgb(173, 180, 93);
+}
+#three div
+{
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    font-style: italic;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 5px;
+}
+
+#four 
+{
+    padding: 40px ;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: rgb(166, 80, 137);
+}
+#four h3{
+    font-size: 50px;
+}
+#four div
+{
+     width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    font-style: italic;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 5px;
+}
+#five
+{
+     padding: 40px ;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: rgb(51, 104, 70);   
+}
+
+#five div
+{
+   width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    font-style: italic;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 5px;
+}
+#five h3{
+      font-size: 50px;
+}
+
+
+.footing 
+{
+  background: #1A2434;
+  padding: 30px;
+  color: white;
+  font-size: large;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: danger  ;
+    src: url(./CCDangerGirl-Open.otf);
+}
+h1{
+    font-size: 100px;
+    /* font-family: danger ; */
+    font-family: "Science Gothic", sans-serif;
+}
