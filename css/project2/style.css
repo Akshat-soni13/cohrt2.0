@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url(./ipl2.webp);
+    background-position: top;
+    background-size: cover ;
+    text-align:end ;
+   
+}
+
+@font-face {
+    font-family: ipl;
+    src: url("./Winter\ Darling.ttf");
+
+}
+
+h1
+{
+    padding-top: 2px;
+    text-align: end ;
+    font-size: 100px;
+    font-family: ipl;
+    color: white;
+    padding-right: 100px;
+
+}
+
+button
+{
+    text-align: center;
+    padding: 20px 40px;
+    background:linear-gradient(green,orange,white);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 100px;
+
+  
+    
+}
