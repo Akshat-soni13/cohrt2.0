@@ -1,0 +1,265 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: apple;
+ }
+ body,html {
+height: 100%;
+width: 100%;
+ }
+ @font-face {
+    font-family: apple;
+    src: url(./SF-Pro.ttf);
+ }
+
+ #main
+ {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+ }
+
+ #main a 
+ {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+ }
+
+ #navbar
+ {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background: #131516;
+    gap:40px;
+    padding: 30px 0px;
+ }
+
+ #hero h1
+ {
+    color: white ;
+    font-size: 70px;
+}
+ #hero h3 
+ {
+
+    font-size: 40px;
+    margin-top: 10px;
+    color:white;
+ }
+
+ #hero
+ {
+    padding-top: 50px;
+    text-align: center;
+    background-image: url(./iphonehero.png);
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+}
+ #hero button
+ {
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 5px;;
+    border-radius: 45px;
+    background-color:#005EB2 ;
+    border:none;
+    width: 150px;
+    height: 50px;
+}
+
+#hero button:hover
+{
+    background-color: black;
+    color: blue;
+}
+
+#hero2
+{
+
+     padding-top: 50px;
+    text-align: center;
+    background-image: url(./iphoneair.png);
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+}
+
+#hero2 h1
+{
+     color: black;
+    font-size: 70px;
+}
+#hero2 h3
+{
+ font-size: 40px;
+    margin-top: 10px;
+    color:black;
+} 
+#hero2 button
+{
+ font-size: 18px;
+    padding: 10px;
+    margin-top: 5px;;
+    border-radius: 45px;
+    background-color:#005EB2 ;
+    border:none;
+    width: 150px;
+    height: 50px;
+    border:1px solid blue;
+} 
+#hero2 button:hover
+{
+ background-color: white;
+ border: none;
+    color: blue;
+}
+
+/*  */
+
+#hero3
+{
+    margin-top: 2%;
+     padding-top: 50px;
+    text-align: center;
+    background-image: url(./ipadair.png);
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+}
+
+#hero3 h1
+{
+     color: black;
+    font-size: 70px;
+}
+#hero3 h3
+{
+ font-size: 40px;
+    margin-top: 10px;
+    color:black;
+} 
+#hero3 button
+{
+ font-size: 18px;
+    padding: 10px;
+    margin-top: 5px;;
+    border-radius: 45px;
+    background-color:#005EB2 ;
+    border:none;
+    width: 150px;
+    height: 50px;
+    border:1px solid blue;
+} 
+#hero3 button:hover
+{
+ background-color: white;
+ border: none;
+    color: blue;
+}
+
+#hero4
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 1%;
+    gap: 10px;
+}
+#hero41
+{
+    height: 70%;
+    width: 50%;
+    background-image: url(./airpods.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 30px;
+}
+#hero42
+{
+    max-height: 70%;
+    width: 50%;
+    background-image: url(./apple.png);
+    background-size: cover;
+    background-position:bottom;
+    text-align: center;
+    padding-top: 30px;
+}
+#hero41 h3 
+{
+    margin-top: 2px;
+}
+#hero41 button
+{
+     font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;;
+    border-radius: 45px;
+    background-color:#005EB2 ;
+    border:none;
+    width: 150px;
+    height: 50px;
+    border:1px solid blue;
+}
+#hero41 button:hover
+{
+     background-color: white;
+    border: none;
+    color: blue;
+}
+
+/*  */
+
+#hero42 h3 
+{
+   
+    margin-top: 2px;
+}
+#hero42 button
+{
+     font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;;
+    border-radius: 45px;
+    background-color:#005EB2 ;
+    border:none;
+    width: 150px;
+    height: 50px;
+    border:1px solid blue;
+}
+#hero42 button:hover
+{
+     background-color: white;
+    border: none;
+    color: blue;
+}
+#hero42 h1 
+{
+    position: relative;
+}
+#hero42 h1 i 
+{
+    left: 30%;
+   position: absolute;
+}
+
+#footer
+{
+   padding: 20px;
+    text-align: center ;
+    flex: none;
+    width: 100%;
+    height: 20%;
+    font-size: 10px;
+    color:white;
+    background: #000;
+}
