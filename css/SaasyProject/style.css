@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+#main section {
+  flex-grow: 1;
+  height: 100%;
+  width: 100px;
+  background-color: rgb(112, 0, 0);
+  border: 2px solid white;
+}
+#main section:hover {
+  transition: all 0.5s cubic-bezier(0.47, 0, 0.745, 0.715);
+  flex-grow: 2;
+  cursor: pointer;
+}
+#main section:nth-child(1) {
+  background-image: url("./doom.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#main section:nth-child(2) {
+  background-image: url("./ironman.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#main section:nth-child(3) {
+  background-image: url("./spider.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#main section:nth-child(4) {
+  background-image: url("./loki.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#main section:nth-child(5) {
+  background-image: url("./thor2.jpg");
+  background-position: center;
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */

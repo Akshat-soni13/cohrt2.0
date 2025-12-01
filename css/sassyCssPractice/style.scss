@@ -1,0 +1,32 @@
+@import 'buttoner';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body,html {
+height: 100%;
+width: 100%;
+ }
+
+//  mixing reduce reduncancy in css code 
+//  @mixin buttonStyler() {
+//       color: black;
+//       background: blue;
+//       height: 10%;
+//     width: 10%;
+
+    // }
+#main
+{
+    background-color: black;
+
+   height: 100%;
+    width: 100%;
+
+    // below Show how to do nesting of element 
+    .blue {
+      @include ButttonStyler(red, white, 50%, 50%, 30px);
+    }
+}
