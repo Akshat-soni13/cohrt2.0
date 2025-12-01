@@ -1,0 +1,319 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body,html {
+height: 100%;
+width: 100%;
+ }
+
+
+ #main
+ {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 400px 0.5fr 0.5fr 400px;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-areas: "box1 box3 box6 box7"
+                        "box1 box4 box4 box7"
+                        "box2 box4 box4 box8"
+                        "box2 box5 box9 box9"
+    ;
+
+    padding: 30px;
+    gap: 20px;
+
+ }
+
+ .box1
+ {
+    grid-area: box1;
+    
+ }
+  .box2
+ {
+    grid-area: box2;
+
+ } .box3
+ {
+    grid-area: box3;
+
+ } .box4
+ {
+    /* background: rgb(137, 151, 57); */
+    grid-area: box4;
+
+ } .box5
+ {
+    /* background: rgb(148, 61, 82); */
+    grid-area: box5;
+
+ } .box6
+ {
+    /* background: rgb(80, 30, 30); */
+    grid-area: box6;
+
+} .box7
+ {
+    /* background: rgb(110, 110, 224); */
+    grid-area: box7;
+
+
+
+} .box8
+ {
+    /* background: rgb(96, 226, 9); */
+    grid-area: box8;
+
+ } .box9
+ {
+    /* background: rgb(119, 119, 152); */
+    grid-area: box9;
+
+ } 
+ 
+ .box1 img
+ {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+     border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  border-radius: 20px;
+
+}
+
+ .box
+ {
+    background: rgb(154, 0, 0);
+    
+    height: 40%;
+    width: 100%;
+    bottom: -40%;
+    position: absolute;
+    background-color: black;
+  
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+    border-radius: 20px;
+    border-radius: 20px;
+    background: linear-gradient( transparent ,  black );
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    padding-bottom: 20px;
+}
+.box1
+{
+    position: relative;
+    overflow: hidden;
+
+}
+.box1:hover .box 
+{
+   cursor: pointer;
+    transition: all ease 0.4s;
+    bottom: 0;
+}
+
+.box h2
+{
+    color: white;
+    font-size: 40px;
+}
+
+/*  */
+
+.box2 img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+     border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  background-position: center;
+
+}
+.box2
+{
+    position: relative;
+    overflow: hidden;  
+}
+.box2:hover .box 
+{
+   cursor: pointer;
+    transition: all ease 0.4s;
+    bottom: 0;
+}
+/*  */
+
+.box3 img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+     border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  border-radius: 20px;
+  background-position: center;
+
+}
+.box3
+{
+    position: relative;
+    overflow: hidden;  
+}
+.box3:hover .box 
+{
+   cursor: pointer;
+    transition: all ease 0.4s;
+    bottom: 0;
+}
+
+/*  */
+
+.box4 img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+     border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  border-radius: 20px;
+  background-position: center;
+
+}
+.box4
+{
+    position: relative;
+    overflow: hidden;  
+}
+.box4:hover .box 
+{
+   cursor: pointer;
+    transition: all ease 0.4s;
+    bottom: 0;
+}
+
+/*  */
+
+.box5 img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+     border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  border-radius: 20px;
+  background-position: center;
+}
+.box5
+{
+    position: relative;
+    overflow: hidden;  
+}
+.box5:hover .box 
+{
+   cursor: pointer;
+    transition: all ease 0.4s;
+    bottom: 0;
+}
+/*  */
+
+.box6 img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+     border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  border-radius: 20px;
+  background-position: center;
+
+}
+.box6
+{
+    position: relative;
+    overflow: hidden;  
+}
+.box6:hover .box 
+{
+   cursor: pointer;
+    transition: all ease 0.4s;
+    bottom: 0;
+}
+/*  */
+
+.box7 img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+     border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  border-radius: 20px;
+  background-position: center;
+
+}
+.box7
+{
+    position: relative;
+    overflow: hidden;  
+}
+.box7:hover .box 
+{
+   cursor: pointer;
+    transition: all ease 0.4s;
+    bottom: 0;
+}
+/*  */
+.box8 img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+     border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  border-radius: 20px;
+  object-position: center;
+  background-position: center;
+
+}
+.box8
+{
+    position: relative;
+    overflow: hidden;  
+}
+.box8:hover .box 
+{
+   cursor: pointer;
+    transition: all ease 0.4s;
+    bottom: 0;
+}
+/*  */
+.box9 img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+     border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  border-radius: 20px;
+  object-position: center;
+
+}
+.box9
+{
+    position: relative;
+    overflow: hidden;  
+}
+.box9:hover .box 
+{
+   cursor: pointer;
+    transition: all ease 0.4s;
+    bottom: 0;
+}
