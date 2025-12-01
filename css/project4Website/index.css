@@ -1,0 +1,385 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+ }
+ body,html {
+height: 100%;
+width: 100%;
+ }
+
+
+#main
+{
+
+background: black;    
+height: 100%;
+width: 100%;
+}
+
+#navbar
+{
+    display:flex;
+    justify-content: space-between;
+    padding: 2vh;
+    height: 10vh;
+    width: 100%;
+    /* border:2px solid rgb(255, 92, 92) */
+}
+.logo
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    flex: 0 0 auto;
+}
+
+.logo img 
+{
+    border-radius: 50%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.logo h1
+{
+    font-size: 2rem;
+}
+
+.link a
+{
+    text-decoration: none;
+}
+
+.link 
+{
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    white-space: nowrap;
+    /* background-color: aqua; */
+}
+.navend  button
+{
+    width: 10rem;
+    background-color: rgb(49, 49, 255);
+    border-radius: 25rem;
+    border: none;
+}
+.navend
+{
+    gap: 10px;
+display: flex;
+}
+
+.navend button:hover
+{
+    background-color: transparent;
+    color: white;
+    border: 1px solid blue ;
+}
+
+#hero 
+{
+    /* background-color: white; */
+    /* border: 2px solid white ; */
+    width: 100%;
+    height: 80%;
+    padding: 1rem 2rem;
+
+}
+
+#hero1
+{
+    width: 100%;
+    height: 40%;
+    /* border: 2px solid brown; */
+    margin-bottom: 1rem ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#hero2
+{
+     width: 100%;
+    height: 60%;
+    /* border: 2px solid rgb(139, 222, 97); */
+}
+#hero1 h1 
+{
+    font-size: 3rem;
+}
+#hero1 p 
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(190, 186, 186);
+}
+
+#hero1 button
+{
+    margin-left: 1rem;
+     width: 10rem;
+     height: 3rem;
+    background-color: rgb(49, 49, 255);
+    border-radius: 25rem;
+    border: none;
+}
+
+#hero1 button:hover
+{
+     background-color: transparent;
+    color: white;
+    border: 1px solid blue ;
+
+}
+
+#hero2 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: "left top right"
+                        "left down right"    
+    
+    ;
+
+}
+
+.left 
+{
+    /* background: red; */
+    grid-area: left;
+    display: flex;
+    padding-right: 1rem;
+    justify-content: right;
+    align-items: center;
+    
+}
+
+.right
+{
+    /* background-color: green; */
+    grid-area: right;
+     display: flex;
+     padding-left: 1rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.betweentop
+{
+    background-color: blue;
+    grid-area: top;
+}
+
+.betweendown
+{
+    background-color: #232323;
+    grid-area: down;
+}
+
+
+.left img 
+{
+    height: 100%;
+    width: auto;
+    object-position: center;
+    object-fit: contain;
+    /* width: 70%; */
+    border-radius: 2rem;
+}
+
+.right img 
+{
+    height: 100%;
+    /* width: 70%; */
+    border-radius: 2rem;
+    width: auto;
+    object-position: center;
+    object-fit: contain;
+    border-radius: 2rem;
+    display: inline-block;
+
+}
+
+
+.betweentop
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1.3rem;
+}
+.betweentop h2
+{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.betweendown
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1.3rem;
+}
+
+.betweendown h2
+{
+    padding: 0.8rem;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+    width: 15%;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    background-color: gray;
+}
+
+.betweendown h1 
+{
+    font-weight: 300;
+    margin-bottom: 1rem
+}
+
+.content1
+{
+    padding: 1rem;
+    background: black;
+    margin-top: 2rem;
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid rgb(255, 48, 48); */
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c11
+{
+    width: 89%;
+    height: 75%;
+    /* border: 2px solid green; */
+    margin-bottom: 1rem;
+text-align: center;
+
+}
+
+.c12 
+{
+    width: 100%;
+    height: 25%;
+/* border: 2px solid blue; */
+display: flex;
+justify-content: space-around;
+}
+
+.c11 button
+{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    color: white;
+    background: #000;
+    border: 1px solid white;
+}
+
+.c11 p
+{
+ font-size: 2rem;
+}
+.c11 p span
+{
+    color: rgb(195, 195, 195);
+}
+
+.num1
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: grey; */
+}
+.num2
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.num3
+{
+     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.num4
+{
+     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.num1 h1 
+{
+    margin-bottom: 1rem;
+    font-weight: 200;
+    font-size: 4rem;
+}
+.num1 p 
+{
+    font-size: 1rem;
+    color: gray;
+}
+.num2 h1 
+{
+margin-bottom: 1rem;
+    font-weight: 200;
+    font-size: 4rem;
+}
+.num2 p
+{
+font-size: 1rem;
+    color: gray;
+}
+.num3 h1 
+{
+margin-bottom: 1rem;
+    font-weight: 200;
+    font-size: 4rem;
+}
+.num3 p
+{
+    font-size: 1rem;
+    color: gray;
+}
+.num4 h1 
+{
+margin-bottom: 1rem;
+    font-weight: 200;
+    font-size: 4rem;
+}
+.num4 p
+{
+    font-size: 1rem;
+    color: gray;
+}
