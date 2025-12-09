@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+         }
+         body,html {
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #main input
+    {
+        display: none;
+    }
+    #main div
+    {
+        background-color: rgb(142, 124, 34);
+        padding: 1rem;
+        border-radius: 2rem;
+        color: white;
+    }
+    #main div:hover 
+    {
+        background-color: rgb(183, 162, 56);
+        
+    }
+         
+    </style>
+</head>
+<body>
+
+    <div id="main">
+        <input  type="file">
+        <div>Choose file </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
