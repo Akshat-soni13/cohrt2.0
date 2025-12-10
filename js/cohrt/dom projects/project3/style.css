@@ -1,0 +1,36 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body,html {
+height: 100%;
+width: 100%;
+background: #000;
+color: white;
+justify-content: center;
+align-items: center;
+}
+
+
+.conati
+{
+   padding: 2rem;
+   border-bottom: 0.3px solid white ;
+   position: relative;
+   
+}
+
+
+.conati img 
+{
+
+   height: 130px;
+   border: 2px solid white ;
+   border-radius: 50%;
+   position: absolute;
+   opacity: 0;
+   top: 50px;
+   mix-blend-mode: difference;
+   transform: translate(-50%,-50%);
+}

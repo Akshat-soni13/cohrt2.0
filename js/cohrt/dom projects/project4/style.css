@@ -1,0 +1,85 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body,html {
+height: 100%;
+width: 100%;
+background: #000;
+ }
+
+
+ #main
+ {
+   height: 100%;
+   background-color: rgb(63, 85, 75);
+   display: flex;
+   padding: 1rem;
+   justify-content: center;
+}
+
+ #container
+ {
+   /* background: white; */
+   background: rgb(103, 73, 78);
+
+   height: 50rem;
+   width: 35rem;
+   border: 3px solid black;
+   border-radius: 2rem;
+   position: relative;
+}
+
+ #stories
+ {
+   height: 20%;
+   border-bottom: 1px solid rgb(158, 156, 156) ;   
+   display: flex;
+   flex-wrap: nowrap;
+   overflow-x: auto;
+   overflow-y: hidden;
+   align-items: center;
+   gap: 1rem;
+   justify-content: space-evenly;
+   padding: 0 1rem;
+
+}
+
+#stories::-webkit-scrollbar
+{
+   display: none;
+}
+
+
+.story
+{
+   height: 60%;
+   width: 20%; 
+   flex-shrink: 0;  
+   border: 3px solid rgb(255, 0, 0);
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.story img 
+{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+ 
+
+}
+
+#full_screen
+{
+   /* background: red; */
+   height: 100%;
+   width: 100%;
+   border-radius: 2rem;
+   position: absolute;  
+   top: 0; 
+   display: none;
+   background-position: center;
+   background-size: cover;
+}
