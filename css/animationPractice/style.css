@@ -1,0 +1,43 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body,html {
+height: 100%;
+width: 100%;
+background-color: black; 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+@keyframes boxDesigner 
+{
+    from 
+    {
+    height: 10rem;
+    width: 10rem;
+    background: conic-gradient(from 0deg ,red, green,yellow,pink);
+    rotate: 0deg;
+    border-radius: 50%;
+    
+    }
+    to 
+    {
+    height: 40rem;
+    width: 40rem;
+    rotate: 360deg;
+        border: 1px solid white;
+
+    }
+}
+
+
+#box 
+{
+    animation: boxDesigner 5s infinite alternate ; 
+}

@@ -1,0 +1,145 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body,html {
+height: 100%;
+width: 100%;
+color: white;
+    background: black;
+
+ }
+
+
+ main 
+ {
+    height:80%;
+    width: 100%;
+    background: black;
+    padding:2rem;
+    display: flex;
+
+}
+
+#left
+{
+    height: 100%;
+    width: 45%;
+    background-image: url("./image.png");
+    background-position: top;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+#right
+{
+    padding: 0.4rem 1rem;
+    height: 100%;
+    width: 55%;
+    /* background: green; */
+    /* border: 2px solid white; */
+}
+
+#songer
+{
+    /* border: 2px solid white ; */
+    /* background: red;
+     */
+    height: 80%;
+    margin-top: 1rem;
+
+
+}
+#right h3
+{
+    font-weight: 300;
+    color: white;
+    font-size: 3rem;
+}
+
+
+.song-card
+{
+    height: 5rem;
+    border-top: 1px solid  rgba(128, 128, 128, 0.608);
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    
+}
+
+.song-card:hover
+{
+    background-color: rgba(68, 68, 68, 0.318);
+}
+
+#songer 
+{
+    padding: 1rem;
+
+}
+#one 
+{
+    display: flex;
+    height: 100%;
+    gap: 1rem;
+    align-items: center;
+    pointer-events: none;
+}
+
+#one img 
+{
+    border-radius: 1rem;
+    height: 100%;
+}
+
+#two
+{
+    font-size: 1.3rem;
+    pointer-events: none;
+}
+
+#one p
+{
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+.song-card:nth-last-child(1) {
+    
+    border-bottom: 1px solid rgba(128, 128, 128, 0.608);
+
+
+}
+
+#player 
+{
+    background-color: black;
+    height: 10%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#player h3
+{
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#player h3:hover
+{
+background-color: rgba(128, 128, 128, 0.507);
+color: white;
+}
+
+#player h3:active
+{
+    background-color: black;
+}
+

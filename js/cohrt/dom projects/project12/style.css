@@ -1,0 +1,118 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body,html {
+height: 100%;
+width: 100%;
+color: aliceblue;
+ }
+
+ main 
+ {
+    height: 100%;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #section 
+ {
+    height: 30rem;
+    width: 70rem;
+    border: 1px solid white ;
+    display: flex;
+    padding: 1rem;  
+    position: relative;
+    gap: 0.5rem;
+ }
+
+
+ .box 
+ {
+    width: 100%;
+    border: 1px solid white;
+    height: 1rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+
+
+}
+
+#box7
+{
+    height: 50%;
+    width: 4rem;
+    border: 1px solid white;
+    position: absolute;
+    left: 10rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+#box8
+{
+    height: 50%;
+    width: 4rem;
+    border: 1px solid white;
+    position: absolute;
+    RIGHT: 10rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+#box9
+{
+    height: 50%;
+    width: 4rem;
+    border: 1px solid white;
+    position: absolute;
+    RIGHT: 48%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    font-size: 2rem; 
+}
+
+.box:nth-child(n)
+{
+    background: white;
+    border: 2px solid black;
+    color: black;
+    
+}
+
+.box:active
+{
+    scale: 1.2;
+}
+
+#box7:active
+{
+    scale: 1.2;
+}
+
+#box8:active
+{
+    scale: 1.2;
+}
+
+#box9   :active
+{
+    scale: 1.2;
+}
